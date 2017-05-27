@@ -1,8 +1,8 @@
 #!/bin/bash
 
-g_type=powerlaw
+g_type=barabasi_albert
 
-result_root=$HOME/scratch/results/rl_comb_opt/cpp_vc/dqn-$g_type
+result_root=results/dqn-$g_type
 
 # max belief propagation iteration
 max_bp_iter=5
@@ -11,7 +11,7 @@ max_bp_iter=5
 embed_dim=64
 
 # gpu card id
-dev_id=0
+dev_id=1
 
 # max batch size for training/testing
 batch_size=64
@@ -28,12 +28,12 @@ learning_rate=0.0001
 w_scale=0.01
 
 # nstep
-n_step=5
+n_step=2
 
-min_n=50
-max_n=100
+min_n=15
+max_n=20
 
-num_env=10
+num_env=1
 mem_size=500000
 
 max_iter=1000000
@@ -48,6 +48,7 @@ fi
 
 python main.py \
     -n_step $n_step \
+    -dev_id $dev_id \
     -min_n $min_n \
     -max_n $max_n \
     -num_env $num_env \

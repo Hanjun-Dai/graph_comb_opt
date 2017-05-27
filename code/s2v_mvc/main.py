@@ -108,7 +108,7 @@ if __name__ == '__main__':
             frac = 0.0
             for idx in range(n_valid):
                 frac += api.lib.Test(idx)
-            print 'iter', iter, 'eps', eps, 'average pct of vc: ', frac / n_valid
+            print 'iter', iter, 'eps', eps, 'average size of vc: ', frac / n_valid
             sys.stdout.flush()
             model_path = '%s/nrange_%d_%d_iter_%d.model' % (opt['save_dir'], int(opt['min_n']), int(opt['max_n']), iter)
             api.SaveModel(model_path)

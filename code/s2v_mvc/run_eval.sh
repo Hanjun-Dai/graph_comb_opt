@@ -2,11 +2,9 @@
 
 g_type=barabasi_albert
 
-data_test=$HOME/data/dataset/rl_comb_opt/data/mvc_maxcut/gtype-$g_type-nrange-200-300-n_graph-1000-p-0.00-m-4-w-float-0-1-cnctd-0-seed-2.pkl
+data_test=../../data/mvc/gtype-$g_type-nrange-15-20-n_graph-1000-p-0.00-m-4.pkl
 
-#data_test=$HOME/data/dataset/rl_comb_opt/data/mvc_maxcut/gtype-$g_type-nrange-100-200-n_graph-1000-p-0.15-m-0-w-float-0-1-cnctd-0-seed-2.pkl
-
-result_root=$HOME/scratch/results/rl_comb_opt/cpp_vc/dqn-$g_type
+result_root=results/dqn-$g_type
 
 # max belief propagation iteration
 max_bp_iter=5
@@ -34,8 +32,8 @@ w_scale=0.01
 # nstep
 n_step=5
 
-min_n=100
-max_n=200
+min_n=15
+max_n=20
 
 num_env=10
 mem_size=500000
@@ -44,11 +42,6 @@ max_iter=100000
 
 # folder to save the trained model
 save_dir=$result_root/embed-$embed_dim-nbp-$max_bp_iter-rh-$reg_hidden
-
-if [ ! -e $save_dir ];
-then
-    mkdir -p $save_dir
-fi
 
 python evaluate.py \
     -n_step $n_step \

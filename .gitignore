@@ -1,4 +1,9 @@
 Makefile
+data/
+results/
+
+#python
+*.pyc
 
 # Prerequisites
 *.d
