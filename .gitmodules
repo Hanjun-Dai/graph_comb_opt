@@ -1,0 +1,3 @@
+[submodule "graphnn"]
+	path = graphnn
+	url = git@github.com:Hanjun-Dai/graphnn
