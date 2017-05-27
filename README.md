@@ -71,13 +71,13 @@ Please cite our work if you find our code/paper is useful to your work.
 
 ## Check list
 1. S2V-DQN on synthetic data
-* Minimum Vertex Cover (done)
+* **Minimum Vertex Cover (done)**
 * Set Cover (coming soon)
 * Maxcut (coming soon)
 * 2D TSP (coming soon)
 
 2. Synthetic data generator
-* Minimum Vertex Cover (done)
+* **Minimum Vertex Cover (done)**
 * Set Cover (coming soon)
 * Maxcut (coming soon)
 * 2D TSP (coming soon)
