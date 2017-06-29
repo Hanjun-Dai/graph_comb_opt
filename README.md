@@ -73,13 +73,13 @@ Please cite our work if you find our code/paper is useful to your work.
 1. S2V-DQN on synthetic data
 * **Minimum Vertex Cover (done)**
 * Set Cover (coming soon)
-* Maxcut (coming soon)
+* **Maxcut (done)**
 * 2D TSP (coming soon)
 
 2. Synthetic data generator
 * **Minimum Vertex Cover (done)**
 * Set Cover (coming soon)
-* Maxcut (coming soon)
+* **Maxcut (done)**
 * 2D TSP (coming soon)
 
 3. S2V-DQN on real-world data
