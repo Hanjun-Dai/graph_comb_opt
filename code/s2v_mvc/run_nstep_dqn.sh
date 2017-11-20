@@ -11,7 +11,7 @@ max_bp_iter=5
 embed_dim=64
 
 # gpu card id
-dev_id=1
+dev_id=0
 
 # max batch size for training/testing
 batch_size=64
