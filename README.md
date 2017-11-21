@@ -3,7 +3,7 @@
 # graph_comb_opt 
 Implementation of "Learning Combinatorial Optimization Algorithms over Graphs" (https://arxiv.org/abs/1704.01665)
 
-# build
+# 1. build
 
 **** Below shows an example of MVC. For all the problems, you can follow the similar pipeline ****
 
@@ -26,7 +26,9 @@ For each task, build the dynamic library. For example, to build the Minimum Vert
     
 Now you are all set with the C++ backend. 
 
-# Generate synthetic data
+# 2. Experiments on synthetic data
+
+### Generate synthetic data
 
 To generate the synthetic data for Minimum Vertex Cover task, you can do the following:
 
@@ -36,7 +38,7 @@ To generate the synthetic data for Minimum Vertex Cover task, you can do the fol
     
 The above code will generate 1000 test graphs under /path/to/the/project/data/mvc 
 
-# Training with n-step Q-learning
+### Training with n-step Q-learning
 
 Navigate to the MVC folder and run the training script. Modify the script to change the parameters. 
 
@@ -45,7 +47,7 @@ Navigate to the MVC folder and run the training script. Modify the script to cha
     
 By default it will save all the model files, the logs under currentfolder/results. Note that the code will generate the data on the fly, including the validation dataset. So the training code itself doesn't rely on the data generator. 
 
-# Test the performance
+### Test the performance
 
 Navigate to the MVC folder and run the evaluation script. Modify the script to change the parameters. Make sure the parameters are consistent with your training script. 
 
