@@ -3,6 +3,10 @@
 # graph_comb_opt 
 Implementation of "Learning Combinatorial Optimization Algorithms over Graphs" (https://arxiv.org/abs/1704.01665)
 
+Step-by-step demo of MVC solution found by different methods.
+From left to right: (1) S2V-DQN (our method), (2) node-degree heuristic, (3) edge-degree heuristic
+![demo](https://github.com/Hanjun-Dai/graph_comb_opt/blob/master/visualize/mvc-40-50.gif)
+
 # 1. build
 
 **** Below shows an example of MVC. For all the problems, you can follow the similar pipeline ****
