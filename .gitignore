@@ -1,6 +1,9 @@
+reproduce/
+reproduce
+data/
 Makefile
 .vscode/
-data/
+*.pkl
 results/
 
 #python
