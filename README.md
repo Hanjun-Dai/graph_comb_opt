@@ -64,6 +64,13 @@ The above script will load the 1000 test graphs you generated before, and output
     
     Here the second column shows a solution found by S2V-DQN, in the same order of how each node is picked. 
 
+# Reproducing the results that reported in the paper
+
+Here is the link to the dataset that was used in the paper:
+
+https://www.dropbox.com/sh/r39596h8e26nhsp/AADRm5mb82xn7h3BB4KXgETsa?dl=0
+
+
 # Reference
 
 Please cite our work if you find our code/paper is useful to your work. 
