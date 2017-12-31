@@ -80,7 +80,7 @@ Please cite our work if you find our code/paper is useful to your work.
 * **Minimum Vertex Cover (done)**
 * Set Cover (coming soon)
 * **Maxcut (done)**
-* 2D TSP (coming soon)
+* **2D TSP (done)**
 
 2. Synthetic data generator
 * **Minimum Vertex Cover (done)**
