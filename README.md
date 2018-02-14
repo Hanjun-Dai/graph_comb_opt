@@ -1,5 +1,3 @@
-## **** Under Construction *****
-
 # graph_comb_opt 
 Implementation of "Learning Combinatorial Optimization Algorithms over Graphs" (https://arxiv.org/abs/1704.01665)
 
@@ -64,6 +62,14 @@ The above script will load the 1000 test graphs you generated before, and output
     
     Here the second column shows a solution found by S2V-DQN, in the same order of how each node is picked. 
 
+# 2. Experiments on real-world data
+
+For TSP we test on part of the tsplib instances;
+For MVC and SCP, we use memetracker dataset; 
+For MAXCUT, we test on optsicom dataset; 
+
+All the data can be found through the dropbox link below. Code folders that start with 'realworld' are for this set of experiments. 
+
 # Reproducing the results that reported in the paper
 
 Here is the link to the dataset that was used in the paper:
@@ -81,26 +87,3 @@ Please cite our work if you find our code/paper is useful to your work.
       journal={arXiv preprint arXiv:1704.01665},
       year={2017}
     }
-
-## Check list
-1. S2V-DQN on synthetic data
-* **Minimum Vertex Cover (done)**
-* Set Cover (coming soon)
-* **Maxcut (done)**
-* **2D TSP (done)**
-
-2. Synthetic data generator
-* **Minimum Vertex Cover (done)**
-* Set Cover (coming soon)
-* **Maxcut (done)**
-* 2D TSP (coming soon)
-
-3. S2V-DQN on real-world data
-* MemeTracker MVC (coming soon)
-* MemeTracker Set Cover (coming soon)
-* Optsicom Maxcut (coming soon)
-* TSPLIB 2D TSP (coming soon)
-
-4. data generator for real-world data
-* MemeTracker MVC (coming soon)
-* MemeTracker Set Cover (coming soon)
