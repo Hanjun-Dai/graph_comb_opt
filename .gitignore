@@ -1,7 +1,10 @@
+reproduce/
+reproduce
+data/
 Makefile
 .DS_Store
 .vscode/
-data/
+*.pkl
 results/
 
 #python
