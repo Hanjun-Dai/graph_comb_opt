@@ -1,4 +1,5 @@
 Makefile
+.DS_Store
 .vscode/
 data/
 results/
